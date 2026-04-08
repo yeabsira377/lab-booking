@@ -5,7 +5,7 @@ require_relative "../booking"
 
 class BookingTest < Minitest::Test
   def setup
-    @user = User.new(id: 1, name: "Mahi", role: "student")
+    @user = User.new(id: 1, name: "mahlet", role: "student")
     @resource = Resource.new(id: 1, name: "Microscope", category: "lab")
   end
 
